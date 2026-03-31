@@ -1,0 +1,152 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+#inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #ff83c5;
+    padding: 10px;
+    z-index: 1000;
+}
+
+#nav #home-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+#nav #home-link img {
+    height: 40px;
+    margin-left: 20px;
+}
+
+#nav #nav-links {
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+
+}
+
+#nav a {
+    color: #e90000;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 600;
+}
+
+#nav a:hover {
+    color: #000000;
+}
+
+#gif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#gif img {
+    border-radius: 30px;
+    width: 1000px;
+    height: 600px;
+}
+
+/*Serviços*/
+
+#servicos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+#servicos #populares {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+#servicos #populares #titulo-e-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 750px;
+}
+#servicos #populares #titulo-e-link #titulo-populares {
+    color: #e90000;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+#servicos #populares #titulo-e-link #link-receitas {
+    color: #e90000;
+    font-size: 17px;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+#servicos #populares #receitas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff83c5;
+    gap: 100px;
+    width: 1200px;
+    height: 600px;
+    border-radius: 30px;
+}
+
+
+#servicos #populares #receitas .imagem-receita {
+    background-color: #b9acac;
+    width: 250px;
+    height: 250px;
+}
+
+#servicos #populares #receitas .titulo-receita {
+    color: #e90000;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+#servicos #populares #receitas .descricao-receita {
+    color: #000000;
+    font-size: 20px;
+    text-align: left;
+    font-style: italic;
+}
+
+#servicos #populares #receitas .botao-receita {
+    background-color: #e90000;
+    color: #ffffff;
+    border: none;
+    padding: 20px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
